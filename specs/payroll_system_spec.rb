@@ -1,6 +1,6 @@
 require '../lib/payroll_processor'
 require '../lib/employee'
-require '../specs/test_utils'
+require_relative 'support/test_utils'
 
 describe 'whole system interaction' do
 
