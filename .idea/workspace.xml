@@ -12,7 +12,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/EmployeePayrollExample@All_specs_in_specs__EmployeePayrollExample.coverage" NAME="All specs in specs: EmployeePayrollExample Coverage Results" MODIFIED="1397139254907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/specs" MODULE_NAME="EmployeePayrollExample" />
+    <SUITE FILE_PATH="coverage/EmployeePayrollExample@All_specs_in_specs__EmployeePayrollExample.coverage" NAME="All specs in specs: EmployeePayrollExample Coverage Results" MODIFIED="1397139739769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/specs" MODULE_NAME="EmployeePayrollExample" />
     <SUITE FILE_PATH="coverage/EmployeePayrollExample@Run_spec__payroll_processor_spec___EmployeePayrollExample.coverage" NAME="Run spec 'payroll_processor_spec': EmployeePayrollExample Coverage Results" MODIFIED="1397036896344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/specs" MODULE_NAME="EmployeePayrollExample" />
     <SUITE FILE_PATH="coverage/EmployeePayrollExample@Run_spec__payroll_engine_spec___EmployeePayrollExample.coverage" NAME="Run spec 'payroll_engine_spec': EmployeePayrollExample Coverage Results" MODIFIED="1397037361839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/specs" MODULE_NAME="EmployeePayrollExample" />
     <SUITE FILE_PATH="coverage/EmployeePayrollExample@All_tests_in_specs__EmployeePayrollExample.coverage" NAME="All tests in specs: EmployeePayrollExample Coverage Results" MODIFIED="1397036904795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/specs" MODULE_NAME="EmployeePayrollExample" />
@@ -33,7 +33,7 @@
       <file leaf-file-name="payroll_system_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/specs/payroll_system_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="22" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="2178">
+            <state line="17" column="0" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="201" max-vertical-offset="2178">
               <folding />
             </state>
           </provider>
@@ -42,7 +42,7 @@
       <file leaf-file-name="payroll_engine_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/specs/payroll_engine_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="43" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0" vertical-offset="43" max-vertical-offset="704">
+            <state line="21" column="42" selection-start="759" selection-end="759" vertical-scroll-proportion="0.0" vertical-offset="87" max-vertical-offset="924">
               <folding />
             </state>
           </provider>
@@ -51,7 +51,7 @@
       <file leaf-file-name="payroll_processor.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/payroll_processor.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="52" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0" vertical-offset="223" max-vertical-offset="902">
+            <state line="15" column="0" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="902">
               <folding />
             </state>
           </provider>
@@ -60,25 +60,25 @@
       <file leaf-file-name="payroll_processor_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/specs/payroll_processor_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="31" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="74" max-vertical-offset="616">
+            <state line="7" column="31" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="616">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="payroll_engine.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="payroll_engine.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/payroll_engine.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="34" selection-start="288" selection-end="288" vertical-scroll-proportion="0.49624062" vertical-offset="0" max-vertical-offset="532">
+            <state line="13" column="20" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="528">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="payroll_writer_spec.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="payroll_writer_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/specs/payroll_writer_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="32" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="704">
+            <state line="22" column="47" selection-start="623" selection-end="623" vertical-scroll-proportion="0.62781954" vertical-offset="150" max-vertical-offset="704">
               <folding />
             </state>
           </provider>
@@ -87,7 +87,7 @@
       <file leaf-file-name="payroll_writer.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/payroll_writer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="7" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+            <state line="6" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
               <folding />
             </state>
           </provider>
@@ -109,12 +109,12 @@
         <option value="$PROJECT_DIR$/lib/pay_record.rb" />
         <option value="$PROJECT_DIR$/specs/payroll_reader_spec.rb" />
         <option value="$PROJECT_DIR$/lib/payroll_reader.rb" />
-        <option value="$PROJECT_DIR$/specs/payroll_writer_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/payroll_writer.rb" />
         <option value="$PROJECT_DIR$/specs/payroll_system_spec.rb" />
         <option value="$PROJECT_DIR$/lib/payroll_processor.rb" />
-        <option value="$PROJECT_DIR$/specs/payroll_engine_spec.rb" />
         <option value="$PROJECT_DIR$/lib/payroll_engine.rb" />
+        <option value="$PROJECT_DIR$/specs/payroll_engine_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/payroll_writer.rb" />
+        <option value="$PROJECT_DIR$/specs/payroll_writer_spec.rb" />
       </list>
     </option>
   </component>
@@ -665,44 +665,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/specs/payroll_writer_spec.rb">
+    <entry file="file://$PROJECT_DIR$/lib/payroll_engine.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="32" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="704">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/payroll_writer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/specs/payroll_system_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="22" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="2178">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/payroll_processor.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="52" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0" vertical-offset="223" max-vertical-offset="902">
+        <state line="13" column="20" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="528">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/specs/payroll_engine_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="43" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0" vertical-offset="43" max-vertical-offset="704">
+        <state line="21" column="42" selection-start="759" selection-end="759" vertical-scroll-proportion="0.0" vertical-offset="87" max-vertical-offset="924">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/payroll_engine.rb">
+    <entry file="file://$PROJECT_DIR$/specs/payroll_system_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="34" selection-start="288" selection-end="288" vertical-scroll-proportion="0.49624062" vertical-offset="0" max-vertical-offset="532">
+        <state line="17" column="0" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="201" max-vertical-offset="2178">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/payroll_processor.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="902">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/payroll_writer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specs/payroll_writer_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="47" selection-start="623" selection-end="623" vertical-scroll-proportion="0.62781954" vertical-offset="150" max-vertical-offset="704">
           <folding />
         </state>
       </provider>
