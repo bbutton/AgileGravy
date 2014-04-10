@@ -10,8 +10,9 @@ class PayrollEngine
 
     date_parts = pay_date.split('/')
     if(date_parts[1] == "01") then
-      employee = @employee_list[0]
-      pay_record << PayRecord.new(employee.name, employee.yearly_salary/12, pay_date)
+      @employee_list.each do |employee|
+        pay_record << PayRecord.new(employee.name, employee.yearly_salary/12, pay_date)
+      end
     end
 
     pay_record
