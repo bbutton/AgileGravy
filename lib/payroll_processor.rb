@@ -1,3 +1,8 @@
+require_relative '../lib/employee'
+require_relative '../lib/payroll_reader'
+require_relative '../lib/payroll_writer'
+require_relative '../lib/payroll_engine'
+
 class PayrollProcessor
   def initialize input_reader, payroll_engine, output_writer
     @input_reader = input_reader
@@ -9,5 +14,24 @@ class PayrollProcessor
     pay_date = @input_reader.next_payday
     payroll_details = @payroll_engine.run_payroll pay_date
     @output_writer.write_pay_record payroll_details
+  end
+
+  def self.run(input_file_name, output_file_name, employee)
+    input_file = File.open(input_file_name, "r")
+    input_reader = PayrollReader.new(input_file)
+
+    output_file = File.new(output_file_name, "w")
+    output_writer = PayrollWriter.new(output_file)
+
+    employee = Employee.new("Bill", 1200)
+    payroll_engine = PayrollEngine.new(employee)
+
+    begin
+      payroll_processor = PayrollProcessor.new(input_reader, payroll_engine, output_writer)
+      payroll_processor.run_payroll
+    ensure
+      output_file.close
+      input_file.close
+    end
   end
 end

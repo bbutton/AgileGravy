@@ -8,7 +8,7 @@ describe 'whole system interaction' do
     c.filter_run_excluding :pending => true
   end
 
-  it 'pays a single employee on first of the month', :pending => true do
+  it 'pays a single employee on first of the month', :pending => false do
     expected_output = "Check|Bill|$100|100|01/01/2014\n"
     employee_list = Employee.new("Bill", 1200)
 
