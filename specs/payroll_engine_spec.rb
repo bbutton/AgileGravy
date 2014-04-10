@@ -10,6 +10,6 @@ describe 'Pays people the appropriate amount on the right day of the month' do
 
     payroll_details = payroll_engine.run_payroll("01/01/2014")
 
-    expect(payroll_details).to eq("Check|Bill|$100|100|01/01/2014")
+    expect(payroll_details).to eq(PayRecord.new("Bill", 100, "01/01/2014"))
   end
 end

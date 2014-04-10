@@ -4,6 +4,7 @@ class PayrollWriter
   end
 
   def write_pay_record(pay_record)
-    @sink.write(pay_record + "\n")
+    pay_data = "Check|#{pay_record.name}|$#{pay_record.pay}|100|#{pay_record.pay_date}"
+    @sink.write(pay_data + "\n")
   end
 end
