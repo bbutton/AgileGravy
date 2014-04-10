@@ -35,7 +35,7 @@ describe 'whole system interaction' do
     end
   end
 
-  it 'pays everyone if first of the month', :pending => true do
+  it 'pays everyone if first of the month', :pending => false do
     bills_pay = "Check|Bill|$100|100|01/01/2014\n"
     sallys_pay = "Check|Sally|$200|101|01/01/2014\n"
 
