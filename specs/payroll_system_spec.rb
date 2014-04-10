@@ -10,7 +10,7 @@ describe 'whole system interaction' do
 
   it 'pays a single employee on first of the month', :pending => false do
     expected_output = "Check|Bill|$100|100|01/01/2014\n"
-    employee_list = Employee.new("Bill", 1200)
+    employee_list = [Employee.new("Bill", 1200)]
 
     input_file_name = TestUtils.create_input_file('SingleEmployeePaymentTest-in.txt',"Payday|01/01/2014\n")
     output_file_name = TestUtils.create_output_file('SingleEmployeePaymentTest-out.txt')
@@ -23,7 +23,7 @@ describe 'whole system interaction' do
   end
 
   it 'does not pay anyone if not first of month', :pending => false do
-    employee_list = Employee.new("Bill", 1200)
+    employee_list = [Employee.new("Bill", 1200)]
 
     input_file_name = TestUtils.create_input_file('NoEmployeePaymentTest-in.txt', "Payday|01/02/2014\n")
     output_file_name = TestUtils.create_output_file('NoEmployeePaymentTest-out.txt')
