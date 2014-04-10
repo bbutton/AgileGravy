@@ -23,7 +23,6 @@ class PayrollProcessor
     output_file = File.new(output_file_name, "w")
     output_writer = PayrollWriter.new(output_file)
 
-    employee = Employee.new("Bill", 1200)
     payroll_engine = PayrollEngine.new(employee)
 
     begin

@@ -13,4 +13,15 @@ describe 'Writes payroll data to output sink' do
 
     expect(sink.string).to eq("Check|Bill|$100|100|01/01/2014\n")
   end
+
+  it 'writes nothing if input pay_records are nil' do
+    pay_record = nil
+    sink = StringIO.new("", "w")
+
+    payroll_writer = PayrollWriter.new(sink)
+
+    payroll_writer.write_pay_record(pay_record)
+
+    expect(sink.string).to eq("")
+  end
 end

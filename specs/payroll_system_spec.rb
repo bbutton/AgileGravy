@@ -22,7 +22,7 @@ describe 'whole system interaction' do
     end
   end
 
-  it 'does not pay anyone if not first of month', :pending => true do
+  it 'does not pay anyone if not first of month', :pending => false do
     employee_list = Employee.new("Bill", 1200)
 
     input_file_name = TestUtils.create_input_file('NoEmployeePaymentTest-in.txt', "Payday|01/02/2014\n")
